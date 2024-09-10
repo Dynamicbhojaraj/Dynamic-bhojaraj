@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const projects = [
   { title: "Dynamic AI", description: "It is an image Processing Software", url: "#", technologies: "Machine Learning, OpenAI API", image: "dynamic-ai.jpg" },
-  { title: "Portfolio", description: "It is a personal website", url: "#", technologies: "React.js, Tailwind CSS", image: "portfolio.jpg" },
+  { title: "Portfolio", description: "It is a personal website", url: "#", technologies: "React.js, Tailwind CSS", image: "portfolio.png" },
   { title: "Coming Soon", description: "", url: "#", technologies: "", image: "coming-soon.jpg" },
   { title: "Coming Soon", description: "", url: "#", technologies: "", image: "coming-soon.jpg" },
   { title: "Coming Soon", description: "", url: "#", technologies: "", image: "coming-soon.jpg" },
