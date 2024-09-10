@@ -5,7 +5,7 @@ import { MdDone } from "react-icons/md";
 const experiences = [
   {
     title: "Internship | Machine Learning",
-    company: "PanTech Solution", // Corrected spelling
+    company: "PanTech Solution",
     date: "March 2024 – June 2024",
     description:
       "Applied machine learning techniques using Python libraries like Pandas and Scikit Learn.",
@@ -38,15 +38,15 @@ const education = [
 
 function Section() {
   return (
-    <div className="relative w-full max-w-none md:max-w-[1200px] mx-auto bg-white rounded-lg p-4 border-2 border-black hover:shadow-lg transition duration-500 ease-in-out">
-      <div className="p-4 border rounded-lg shadow-md mb-6">
+    <div className="relative w-full max-w-none md:max-w-[1200px] mx-auto bg-white rounded-lg p-4 border-2 border-green-500 hover:shadow-lg transition duration-500 ease-in-out">
+      <div className="p-4 border border-green-500 rounded-lg shadow-md mb-6">
         <h2 className="text-3xl font-bold flex items-center mb-6">
           <FaBriefcase className="mr-2" /> Experience
         </h2>
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="mb-6 p-4 bg-gray-100 rounded-lg border border-gray-300"
+            className="mb-6 p-4 bg-gray-100 rounded-lg border border-green-500"
           >
             <div className="flex items-center justify-between mb-2">
               <h3 className="text-lg font-semibold">{exp.title}</h3>
@@ -59,14 +59,14 @@ function Section() {
         ))}
       </div>
 
-      <div className="p-4 border rounded-lg shadow-md">
+      <div className="p-4 border border-green-500 rounded-lg shadow-md">
         <h2 className="text-3xl font-bold flex items-center mb-6">
           <FaGraduationCap className="mr-2" /> Education
         </h2>
         {education.map((edu, index) => (
           <div
             key={index}
-            className="mb-6 p-4 bg-gray-100 rounded-lg border border-gray-300"
+            className="mb-6 p-4 bg-gray-100 rounded-lg border border-green-500"
           >
             <div className="flex items-center justify-between mb-2">
               <h3 className="text-lg font-semibold">{edu.title}</h3>

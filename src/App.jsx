@@ -6,6 +6,7 @@ import Skill from './Components/Skill';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
 import AboutMe from './Components/Aboutme';
+import Header from './Components/Header';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Project/>
     <Skill/>
     <Contact/>
+    <Header/>
     </>
   );
 }
